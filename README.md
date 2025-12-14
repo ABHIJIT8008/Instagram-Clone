@@ -1,31 +1,50 @@
-# Mini Instagram Clone (MERN Stack)
+# 📸 MERN Stack Instagram Clone
 
-A full-stack social media application built with the MERN stack (MongoDB, Express, React, Node.js). Features include user authentication, image posting, a social feed, and follow/unfollow functionality.
+A fully functional social media application built using the MERN stack (MongoDB, Express, React, Node.js). This project replicates core Instagram features including user authentication, image posting, a social feed, and user interactions.
 
-## Features
+## 🚀 Features Implemented
 
-- **Authentication:** secure Login & Signup (JWT + BCrypt).
-- **Feed System:** Dynamic feed showing posts from followed users + self.
-- **Social Graph:** Follow and Unfollow users.
-- **Interactions:** Like and Unlike posts with optimistic UI updates.
-- **Profiles:** View user profiles with post grids and follower counts.
-- **Responsive UI:** Built with React & Tailwind CSS.
+* **Authentication & Security:**
+    * User Signup & Login (JWT-based authentication).
+    * Secure Password Hashing (BCrypt).
+    * Protected Routes (Client & Server side).
+* **Social Feed:**
+    * Dynamic Home Feed displaying posts from followed users and yourself.
+    * Optimistic UI updates for instant feedback.
+* **Post Interactions:**
+    * **Create Post:** Upload posts with Image URLs and captions.
+    * **Like System:** Real-time like/unlike functionality with heart animations.
+    * **Commenting:** Expandable comment section to view and add comments.
+* **User Connections:**
+    * **Follow/Unfollow:** Build your social graph by following other users.
+    * **Search:** Real-time type-ahead search to find users by username.
+* **Profile Management:**
+    * **User Profiles:** View post grids, follower/following counts, and bios.
+    * **Edit Profile:** Update your username, bio, and profile picture.
+* **UI/UX:**
+    * Responsive design using **Tailwind CSS**.
+    * Built with **Vite** for lightning-fast performance.
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- **Frontend:** React (Vite), Tailwind CSS, Context API, Axios.
-- **Backend:** Node.js, Express.js.
-- **Database:** MongoDB (Atlas).
-- **Security:** JWT (JSON Web Tokens) for session management.
+* **Frontend:** React.js (Vite), Tailwind CSS, React Router DOM, Axios, Context API.
+* **Backend:** Node.js, Express.js.
+* **Database:** MongoDB (Atlas).
+* **Authentication:** JSON Web Tokens (JWT).
 
-## Prerequisites
+---
 
-- Node.js (v14 or higher)
-- MongoDB Connection String (Atlas or Local)
+## ⚙️ Prerequisites
 
-## Installation & Setup
+Before you begin, ensure you have the following installed:
+* [Node.js](https://nodejs.org/) (v14 or higher)
+* [MongoDB](https://www.mongodb.com/) (Atlas Connection String or Local URL)
 
-### 1. Backend Setup
-Navigate to the root directory and install backend dependencies:
+---
+
+## 📦 Installation & Setup
+
+### 1. Clone the Repository
 ```bash
-npm install
+git clone [https://github.com/ABHIJIT8008/Instagram-Clone.git]
+cd instagram-clone
