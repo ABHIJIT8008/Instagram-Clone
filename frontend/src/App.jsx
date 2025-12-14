@@ -8,6 +8,7 @@ import CreatePost from "./pages/CreatePost";
 import Profile from "./pages/Profile";
 import Search from "./pages/Search";
 import EditProfile from "./pages/EditProfile";
+import Signup from './pages/Signup';
 
 const ProtectedRoute = ({ children }) => {
   const { user, loading } = useContext(AuthContext);
@@ -22,6 +23,7 @@ function App() {
       {user && <Navbar />}
       <Routes>
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route
           path="/"
           element={
